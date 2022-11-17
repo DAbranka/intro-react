@@ -1,0 +1,22 @@
+body {
+  background-color: #3333;
+}
+
+.App-header {
+  background: rgb(53, 34, 195);
+  background: linear-gradient(
+    306deg,
+    rgba(53, 34, 195, 1) 0%,
+    rgba(188, 45, 253, 1) 100%
+  );
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    color: white;
+    text-transform: uppercase;
+  }
+}
