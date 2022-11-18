@@ -23,14 +23,13 @@ export default function TodoList() {
   const initialTodos = ["My first todo", "My second todo"];
   const [todos, setTodos] = useState(initialTodos);
   return (
-    <ul>
+    <ul className="todoList">
       {todos.map((todo) => (
-        <li>
+        <li key={todo}>
           <input type="checkbox" /> {todo}
         </li>
       ))}
     </ul>
   );
 }
-
-console.log(TodoList)
+ 

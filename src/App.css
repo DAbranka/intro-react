@@ -47,4 +47,8 @@ form .formButton:hover {
   color: rgb(173, 255, 251);
 }
 
+.todoList {
+  list-style: none;
+}
+
 /*# sourceMappingURL=App.css.map */
