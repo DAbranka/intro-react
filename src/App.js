@@ -12,7 +12,8 @@
 // list (ul)
 //
 
-import "./App.css";
+// import "./App.css";
+import "./sass/main.scss";
 import Form from "./Form";
 import Header from "./Header"; // Importer le component
 import List from "./List";
