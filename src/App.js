@@ -13,28 +13,21 @@
 //
 
 import "./App.css";
+import Form from "./Form";
 import Header from "./Header"; // Importer le component
-import Main from "./Main";
+import List from "./List";
+
 
 function App() {
   return (
     <div className="App">
       <Header /> {/* Appeler le component*/}
       <hr></hr>
-      <Main />
-      {/* ------------------------------------------------------------------------- */}
-      {/* <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React @ BeCode
-        </a> */}
-      {/* ------------------------------------------------------------------------- */}
+      <main>
+        <Form />
+        <List />
+      </main>
+      
     </div>
   );
 }

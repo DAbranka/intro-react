@@ -3,7 +3,9 @@ import List from "./List";
 
 function Main(){
     return(
-        <><Form /><List /></>
+        <><Form />
+        <List />
+        </>
     )
 }
 

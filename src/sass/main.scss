@@ -20,3 +20,39 @@ body {
     text-transform: uppercase;
   }
 }
+
+main{
+  margin: 2rem;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 150px;
+  height: 110px;
+  // background-color: red;
+
+  #typeNewTodo{
+    width: 200px;
+    height: 40px;
+  }
+
+
+  .formButton{
+  background-color: rgb(54, 12, 207);
+  color: white;
+  padding: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+
+  &:hover{
+    color: rgb(173, 255, 251);
+  }
+}
+}
+
