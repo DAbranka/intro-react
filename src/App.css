@@ -26,6 +26,7 @@ form {
   justify-content: space-between;
   width: 150px;
   height: 110px;
+  margin-bottom: 20px;
 }
 form #typeNewTodo {
   width: 200px;
