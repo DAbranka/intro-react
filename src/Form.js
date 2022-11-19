@@ -4,7 +4,7 @@ import Button from "./Button";
 function Form(){
     return (
         <form>
-          <input type="text" id="firstname" name="fname" placeholder="Type a new todo"></input>
+          <input type="text" id="typeNewTodo" name="tnewtodo" placeholder="Type a new todo"></input>
           <Button />
         </form>
     )

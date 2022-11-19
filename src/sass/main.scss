@@ -3,7 +3,6 @@ body {
 }
 
 .App-header {
-  background: rgb(53, 34, 195);
   background: linear-gradient(
     306deg,
     rgba(53, 34, 195, 1) 0%,
@@ -19,4 +18,46 @@ body {
     color: white;
     text-transform: uppercase;
   }
+}
+
+main{
+  margin: 2rem;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 150px;
+  height: 110px;
+  margin-bottom: 20px;
+  // background-color: red;
+
+  #typeNewTodo{
+    width: 200px;
+    height: 40px;
+  }
+
+ 
+
+
+  .formButton{
+  background-color: rgb(54, 12, 207);
+  color: white;
+  padding: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+
+  &:hover{
+    color: rgb(173, 255, 251);
+  }
+}
+}
+
+.todoList{
+  list-style: none;
 }

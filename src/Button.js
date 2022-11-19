@@ -1,6 +1,6 @@
 function Button (){
     return(
-        <button>Add Todo</button>
+        <button className="formButton">Add Todo</button>
     )
 }
 
