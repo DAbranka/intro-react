@@ -1,5 +1,19 @@
 body {
-  background-color: rgb(51, 51, 51);
+  background-color: rgba(51, 51, 51, 0.2);
+}
+
+.App-header {
+  background: rgb(53, 34, 195);
+  background: linear-gradient(306deg, rgb(53, 34, 195) 0%, rgb(188, 45, 253) 100%);
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.App-header h1 {
+  color: white;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=App.css.map */
