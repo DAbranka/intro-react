@@ -14,7 +14,6 @@ export default function List() {
 }
 */
 
-
 // --------------------------------------------------------------------------------------- //
 
 import React, { useState } from "react";
@@ -23,13 +22,15 @@ export default function TodoList() {
   const initialTodos = ["My first todo", "My second todo"];
   const [todos, setTodos] = useState(initialTodos);
   return (
-    <ul className="todoList">
-      {todos.map((todo) => (
-        <li key={todo}>
-          <input type="checkbox" /> {todo}
-        </li>
-      ))}
-    </ul>
+    <>
+      <p className="todoTitle">Todos</p>
+      <ul className="todoList">
+        {todos.map((todo) => (
+          <li key={todo}>
+            <input type="checkbox" onClick={() => setTodos(todos)} /> {todo}
+          </li>
+        ))}
+      </ul>
+    </>
   );
-}
- 
+}  

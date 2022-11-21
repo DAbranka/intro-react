@@ -16,6 +16,7 @@ import "./sass/main.scss";
 import Form from "./Form";
 import Header from "./Header"; // Importer le component
 import List from "./List";
+import Count from "./Count";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <main>
         <Form />
         <List />
+        <Count />
       </main>
       
     </div>

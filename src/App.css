@@ -1,10 +1,88 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
 body {
   background-color: rgba(51, 51, 51, 0.2);
 }
 
 .App-header {
   background: linear-gradient(306deg, rgb(53, 34, 195) 0%, rgb(188, 45, 253) 100%);
-  height: 100px;
+  height: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,6 +91,9 @@ body {
 .App-header h1 {
   color: white;
   text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 3rem;
+  font-weight: bolder;
 }
 
 main {
@@ -46,8 +127,19 @@ form .formButton:hover {
   color: rgb(173, 255, 251);
 }
 
+.todoTitle {
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
 .todoList {
   list-style: none;
+}
+
+.count {
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=App.css.map */
