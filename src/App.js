@@ -35,7 +35,7 @@ function App() {
 
 export default App;
 
-// Type "rfc" to generate import export component
+// * Type "rfc" to generate import export component
 /*import React from 'react'
 
 export default function App() {
